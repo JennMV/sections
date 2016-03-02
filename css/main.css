@@ -3,17 +3,64 @@
 }
 
 html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
 }
 
 img {
   width: 100%;
-  max-width:
+  display: block;
 }
 
-h1 {
+h2 {
+  font-family: "Lato", sans-serif;
+}
+
+p {
   font-family: "Lato", sans-serif;
 }
 
 a {
   font-family: "Lato", sans-serif;
+}
+
+body {
+  text-align: left;
+  vertical-align: middle;
+  margin: 0;
+}
+
+div {
+  padding: 0.4em;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  border: 3px;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  padding: 0.4em, 0.75em, 0.60em;
+  font-size: 1.25rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-ghost {
+  padding: 0.4em, 0.75em, 0.60em;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.125rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  display: inline-block;
 }
